@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment Booking</title>
+  <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+  <div class="booking-container">
+    <h1>Book an Appointment now </h1>
+    <form id="bookingForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+      <label for="date">Appointment Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Appointment Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <label for="counselor">Select one:</label>
+      <select id="counselor" name="counselor" required>
+        <option value="" disabled selected>Services </option>
+        <option value="john_doe"> Branding </option>
+        <option value="jane_smith">Billboard</option>
+        <option value="mike_johnson"> Digital marketing</option>
+        <option value="mike_johnson"> Other</option>
+      </select>
+
+      <button type="submit">Book Appointment</button>
+    </form>
+    <div id="confirmationMessage"></div>
+  </div>
+  <div>
+    <h1> or </h1>
+  </div>
+  <div>
+    <h1>whatsapp </h1>
+    <a
+        class="whatsapp-button"
+        href="https://wa.me/+2349134270537?text=Hello%20I%20would%20like%20to%20book%20an%20appointment"
+            target="_blank"
+        >
+            Message us on WhatsApp
+    </a>
+  </div>
+ 
+  
+        
+</body>
+</html>
