@@ -66,95 +66,97 @@
       </div>
     </div>
   </header>
-          <!-- services dropdown -->
-          <div class="relative">
-       
-            <!-- <button class="h-full p-2 text-gray-600 hover:bg-gray-50 hover:text-gray-700">
-              <span class="sr-only">Menu</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="size-4"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </button>
-          </div> -->
-        
-          <div style="display: hidden;"
-            class="absolute end-0 z-10 mt-0  w-56 rounded-md border border-gray-100 bg-white shadow-lg
-            md:hidden" id="toggle_div" 
-            role="menu"
-          >
-            <div class="p-2">
-              <a
-                href="index.html"
-                class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-                role="menuitem"
-              >
-               Home
-              </a>
-        
-              <a
-                href="AboutUs.html"
-                class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-                role="menuitem"
-              >
-                About us<body class="bg-black">
-              </a>
-        
-              <a
-                href="contact.html"
-                class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-                role="menuitem"
-              >
-               Contact us
-              </a>
-        
-              <a
-                href="services.html"
-                class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-                role="menuitem"
-              >
-                Services
-              </a>
   
-              <a
-              href="#"
-              class="block rounded-lg bg-red-500 text-center font-bold px-4 py-2  text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-              role="menuitem"
-            >
-               cancle
-            </a>
-        
-             
-              </form>
-            </div>
-          </div>
-        </div>
-        <script>
-          
-          
-          document.addEventListener('DOMContentLoaded', () => {
-            const toggleBtn = document.getElementById('toggleBtn');
-            const toggleDiv = document.getElementById('toggle_div');
-            const cancelBtn = document.getElementById('cancelBtn');
-            
-        
-            toggleBtn.addEventListener('click', () => {
-              toggleDiv.style.display = toggleDiv.style.display === 'none' ? 'block' : 'none';
-            });
-        
-            cancelBtn.addEventListener('click', () => {
-              toggleDiv.style.display = 'none';
-            });
-          });
-        </script>
+  <!-- services dropdown -->
+  <div  class="relative">
+   
+      <!-- <button class="h-full p-2 text-gray-600 hover:bg-gray-50 hover:text-gray-700">
+        <span class="sr-only">Menu</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="size-4"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div> -->
+  
+    <div style="display: none;"
+      class="absolute end-0 z-10 mt-0  w-56 rounded-md border border-gray-100 bg-white shadow-lg
+      md:hidden" id="toggle_div" 
+      role="menu"
+    >
+      <div class="p-2">
+        <a
+          href="index.html"
+          class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+          role="menuitem"
+        >
+         Home
+        </a>
+  
+        <a
+          href="AboutUs.html"
+          class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+          role="menuitem"
+        >
+          About us<body class="bg-black">
+        </a>
+  
+        <a
+          href="contact.html"
+          class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+          role="menuitem"
+        >
+         Contact us
+        </a>
+  
+        <a
+          href="services.html"
+          class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+          role="menuitem"
+        >
+          Services
+        </a>
+
+        <a
+        id="cancelBtn"
+        href="#"
+        class="block rounded-lg bg-red-500 text-center font-bold px-4 py-2  text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+        role="menuitem"
+      >
+         cancle
+      </a>
+  
+       
+        </form>
+      </div>
+    </div>
+  </div>
+  <script>
+    
+    
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggleBtn = document.getElementById('toggleBtn');
+      const toggleDiv = document.getElementById('toggle_div');
+      const cancelBtn = document.getElementById('cancelBtn');
+      
+  
+      toggleBtn.addEventListener('click', () => {
+        toggleDiv.style.display = toggleDiv.style.display === 'none' ? 'block' : 'none';
+      });
+  
+      cancelBtn.addEventListener('click', () => {
+        toggleDiv.style.display = 'none';
+      });
+    });
+  </script>
     
       <!-- hero section -->
       <div class="bg-green-500" id="services">
